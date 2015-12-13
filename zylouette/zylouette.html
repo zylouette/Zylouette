@@ -1,0 +1,47 @@
+<head>
+  <title>Zylouette</title>
+</head>
+
+<body>
+	{{> header}}
+	{{> logo}} <!-- Tagline -->
+	{{> about}} <!-- Social Media -->
+	{{> services}} <!-- Action -->
+	{{> portfolio}} <!-- Blog? -->
+	{{> contact}}
+</body>
+
+<template name="header">
+	<h1>Zylouette</h1>
+	<h3>Web Development & App Development</h3>
+</template>
+
+<template name="logo">
+	<img src="jellyfish.svg">
+</template>
+
+<template name="about">
+	<h2>About Me</h2>
+</template>
+
+<template name="services">
+	<h2>Services</h2>
+	<h4>Web Developmet</h4>
+	<h4>Mobile App Developmet</h4>
+	<h4>Design</h4>
+</template>
+
+<template name="portfolio">
+	<h2>Portfolio</h2>
+  <img src="" alt="Ziolkowski Dental" />
+  <img src="" alt="John Chisholm Campaign Website" />
+  <img src="" alt="SSSpeedy" />
+</template>
+
+<template name="contact">
+	<h2>Contact</h2>
+	<div>
+    <p>I am availible for freelance projects. Contact me at:</p>
+    <a href="mailto:zylouette@gmail.com?Subject=Awesome%20Freelance%Idea">zylouette@gmail.com</a>
+	</div>
+</template>
